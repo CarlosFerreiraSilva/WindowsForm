@@ -32,7 +32,7 @@ namespace Sisu__Sistema.DAL
                     Aluno novoAluno = new Aluno();
                     string[] dados = linha.Split("|");
                     novoAluno.Nome= dados[0];
-                    novoAluno.Idade = Convert.ToInt32(dados[1]);
+                  
                     novaLista.Add(novoAluno);
                     linha = sr.ReadLine();
                 }
